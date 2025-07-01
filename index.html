@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Biodata</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+      }
+      nav {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      nav a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+      }
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        background-color: #f5f5f5;
+      }
+      .hero img {
+        max-width: 300px;
+        border-radius: 10px;
+      }
+      .biodata {
+        padding: 40px;
+      }
+      .biodata table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .biodata td {
+        padding: 15px;
+        border: 1px solid #ccc;
+        width: 33%;
+        text-align: center;
+      }
+      .portfolio {
+        padding: 40px;
+        background-color: #f0f0f0;
+      }
+      .portfolio table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .portfolio th,
+      .portfolio td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Section 1: Menu -->
+    <nav>
+      <div><strong>MyProfile</strong></div>
+      <div>
+        <a href="#home">Home</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#portfolio">Portfolio</a>
+      </div>
+    </nav>
+
+    <!-- Section 2: Judul & Gambar -->
+    <section class="hero" id="home">
+      <div>
+        <h1>Hi, I’m Bando Mega</h1>
+        <p>Frontend Developer & IoT Enthusiast</p>
+      </div>
+      <img src="https://via.placeholder.com/300" alt="Profile Image" />
+    </section>
+
+    <!-- Section 3: Biodata -->
+    <section class="biodata" id="biodata">
+      <h2>Biodata</h2>
+      <table>
+        <tr>
+          <td>Nama</td>
+          <td>Umur</td>
+          <td>Jenis Kelamin</td>
+        </tr>
+        <tr>
+          <td>Bando Mega Kusuma</td>
+          <td>25</td>
+          <td>Laki-laki</td>
+        </tr>
+        <tr>
+          <td>Pendidikan</td>
+          <td>Asal</td>
+          <td>Email</td>
+        </tr>
+        <tr>
+          <td>S1 Fisika - UIN Walisongo</td>
+          <td>Semarang</td>
+          <td>bandomega@example.com</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Section 4: Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h2>Portofolio</h2>
+      <table>
+        <tr>
+          <th>Nama Proyek</th>
+          <th>Deskripsi</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>Fintrack</td>
+          <td>Aplikasi pencatatan keuangan React</td>
+          <td>
+            <a href="https://github.com/username/fintrack" target="_blank"
+              >GitHub</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>IoT Longsor</td>
+          <td>Deteksi tanah longsor pakai sensor + NodeMCU</td>
+          <td><a href="#" target="_blank">GitHub</a></td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
