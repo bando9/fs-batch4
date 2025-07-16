@@ -1,0 +1,80 @@
+:root {
+  /* --primary-color: #1f2a44;
+  --secondary-color: #00c2ff;
+  --body: #f5f7fa;
+  --text: #2e2e2e; */
+  --light-theme: #fff;
+  --text-light: #696969;
+
+  --dark-theme: #191970;
+  --text-dark: #add8e6;
+}
+
+* {
+  background-color: var(--light-theme);
+}
+
+.container {
+  width: 95%;
+  padding: 0 8px;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headline > div > h2 {
+  margin-bottom: -0.5rem;
+}
+
+#about-first {
+  margin-bottom: -0.7rem;
+}
+
+.hobby {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.title-card {
+  border: solid 1px rgba(0, 0, 0, 0.4);
+  padding: 0.6rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.title-card:last-child {
+  padding: 0.6rem 1.3rem;
+}
+
+.btn-cta {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 10px;
+  text-decoration: none;
+  border: solid 1px rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  color: #000;
+}
+
+/* Media query untuk layar lebih besar dari 768px */
+@media (min-width: 768px) {
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+/* Media query untuk layar lebih besar dari 1024px */
+/* @media (min-width: 1024px) {
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+} */
