@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript exercise</title>
+    <style>
+      .highlight {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Javascript Exercise</h2>
+      <ol id="root"></ol>
+    </div>
+    <div>
+      <h2>Fitur Filter</h2>
+      <form id="form-filter">
+        <label>
+          Ketikan filter:
+          <input
+            type="text"
+            id="input-filter"
+            required
+            oninvalid="this.setCustomValidity('Filter cannot be empty.')"
+            onchange="this.setCustomValidity('')"
+          />
+        </label>
+        <button type="submit">submit</button>
+      </form>
+      <ol id="filter-show"></ol>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
