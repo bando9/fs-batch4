@@ -100,3 +100,8 @@ form.addEventListener("submit", (e) => {
     filterShow.appendChild(li);
   });
 });
+
+const resetFilter = document.getElementById("reset-filter");
+resetFilter.addEventListener("click", () => {
+  filterShow.innerHTML = "";
+});

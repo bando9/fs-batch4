@@ -18,6 +18,10 @@ body {
   margin-top: 10rem !important;
 }
 
+.ms-6 {
+  margin-left: 5.5rem;
+}
+
 .px-4 {
   margin: 0 15rem !important;
 }
@@ -61,12 +65,16 @@ body {
   align-items: center;
 }
 .hero-title {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 800;
 }
 .hero-title .name {
   color: #f15a24;
   font-weight: 600;
+}
+.hero-title-name {
+  font-size: 48px;
+  font-weight: 800;
 }
 .text-orange {
   color: #f15a24;
